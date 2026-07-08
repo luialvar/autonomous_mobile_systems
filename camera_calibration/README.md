@@ -64,7 +64,7 @@ If the default camera index does not open, pass the camera id explicitly:
 6. print the camera matrix, distortion coefficients, and one extrinsic pose per
    stored sample,
 7. undistort the live image,
-8. save `distorted.png` and `undistorted.png`.
+8. save `distorted.png` and `undistorted.png` in the working directory.
 
 Controls:
 
@@ -75,11 +75,11 @@ Controls:
 | `s` | Save the current distorted and undistorted image pair. |
 | `ESC` | Exit. |
 
-The saved calibration images are:
+The submitted calibration image pair is:
 
-![Distorted calibration image](assets/calibration/distorted.png)
-
-![Undistorted calibration image](assets/calibration/undistorted.png)
+| Distorted frame | Undistorted frame |
+| --- | --- |
+| <img src="assets/calibration/disorted.png" alt="Distorted calibration image" width="420"> | <img src="assets/calibration/undisorted.png" alt="Undistorted calibration image" width="420"> |
 
 ## Calibration Results
 
